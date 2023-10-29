@@ -1,2 +1,2 @@
 # Least square solution
-Lets assume we have an unknown system with input 'x'
+We have an unknown system with a vector-valued input function $$\overrightarrow{\x}$$
