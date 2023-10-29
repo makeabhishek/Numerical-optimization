@@ -25,8 +25,10 @@ Matrix of Input vectors, 𝑘 samples of 𝑛−dimensional vectors.
 
 
 To utilise the LSQR method, define the data points in terms of matrices.
-$$ X = 
+\begin{equation}
+X = 
 𝑌_(1×𝑘)=𝜃_(1×𝑛)∙𝑋_(𝑛×𝑘)
+\begin{equation}
 To solve this system of equations, multiply the equation on both sides by 𝑋^𝑇.
 𝑌𝑋^𝑇=𝜃 𝑋𝑋^𝑇
 𝑋𝑋^𝑇 is a square matrix, we can multiply both side of the equation by inverse of this matrix.
